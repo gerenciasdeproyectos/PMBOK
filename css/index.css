@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+@font-face {
+    font-family: "Micro";
+    src: url("fonts/Microgramma D Extended Bold.otf");
+}
+
+body{
+  font-family: 'Micro', sans-serif;
+  overflow: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.home{
+  background-color: black;
+  height: 100vh;
+}
+
+.uno {
+    background-color: #f1f1f1;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.display-web{
+  color: black
+}
+footer{
+  /* background-image: url("../img/footer.jpg"); */
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 34px
+}
+
+footer h2{
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.navbar{
+background-color: transparent !important;
+position: absolute;
+
+}
+
+.navbar a{
+  color: white !important
+}
+
+.logo{
+  width: 250px;
+
+}
+
+.product {
+    width: 100%;
+}
+.product-container {
+    text-align: center;
+    z-index: 3;
+}
+
+.product-container h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.product-container h3 {
+    font-size: 1.75rem;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.product-container p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 8px;
+}
+
+.product-card {
+    border-radius: 8px;
+    height: 524px;
+    background: white;
+    width: 364px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.product-card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.background-product-img {
+    background-image: url(../img/backgrounds/mdc1.jpg);
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    left: 0;
+    background-size: 1685px;
+    background-position-x: -300px;
+}
+.background-product-filter {
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    opacity: 0.8;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    left: 0;
+    background-size: 900px;
+    background-position-x: -300px;
+}
+
+.display-mobile{
+  display: none
+}
+
+.boton {
+    margin: 20px;
+}
+
+.botoncolor {
+    background-color: #ff0000;
+    text-transform: uppercase;
+    color: white;
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: absolute;
+  z-index: 33;
+  width: 600px;
+  height: 100vh
+}
+
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: absolute;
+  z-index: 33;
+  width: 600px;
+  height: 100vh;
+  color: white
+}
+
+.logo-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.shirt-container{
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.grid-absolute{
+  position: absolute;
+  z-index: 1
+}
+.grid{
+  height: 100vh;
+}
+.pink{
+  background-image: linear-gradient(to left, #d9008f, #e20095, #ec009b, #f500a2, #ff00a8);
+}
+.pinker{
+  background-color: #ff00a8
+}
+.blue{
+  background-color: #00dde0
+}
+.bluer{
+  background-image: linear-gradient(to right, #00b7b9, #00c0c3, #00cacc, #00d3d6, #00dde0);
+}
+.yellow{
+  background-image: linear-gradient(to left, #c1ad00, #c9b400, #d0ba00, #d8c100, #e0c800);
+}
+.yellower{
+  background-color: #e0c800
+}
+.red{
+  background-color: #c00000
+}
+.reder{
+  background-image: linear-gradient(to right, #9f0000, #a70000, #af0000, #b80000, #c00000);
+}
+
+.levitate {
+  animation: do-levitation 1.2s alternate ease-in-out infinite;
+}
+.levitate1 {
+  animation: do-levitation 1.2s alternate ease-in-out infinite;
+  animation-delay: 0.5s
+}
+@keyframes do-levitation {
+  0% {
+    transform: translate(0, 0);
+
+  }
+  100% {
+    transform: translate(0, 0.5em);
+
+  }
+}
+
+
+.logo-container h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #212529;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent transparent transparent #212529;
+}
+
+
+
+.abs{
+  position: absolute;
+  z-index: 33;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  font-size: 12px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #ffffff transparent #ffffff;
+    top: 560px;
+}
+
+.fp-controlArrow.fp-next {
+    right: 20px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #ffffff;
+    top: 560px;
+}
+
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+li{
+
+    font-size: 11px;
+    list-style: none;
+    text-align: left;
+}
+
+p{
+  font-family: 'Questrial', sans-serif;
+}
+h1{
+  text-transform: uppercase;
+}
+
+.background1 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://live.staticflickr.com/7711/27891840712_4659691a66_b.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background2 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background3 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://www.incimages.com/uploaded_files/image/1920x1080/getty_533979847_128300.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background4 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://picjumbo.com/wp-content/uploads/office-work-things_free_stock_photos_picjumbo_HNCK5108.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background5 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://www.deborahweinswig.com/wp-content/uploads/2017/02/picjumbo-workspace-desk-stock-photo.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background6 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/14058800/thumb/1.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background7 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/14058800/thumb/1.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background8 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://www.mafius.com/wp-content/uploads/2011/10/business.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background9 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/14058800/thumb/1.jpg');
+    background-size: cover;
+    opacity: 1
+}
+.background10 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://picjumbo.com/wp-content/uploads/woman-business-office-meeting-2210x1473.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+
+
+
+.shadowback{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: black;
+    opacity: 0.7;
+    z-index: -1
+}
+
+li{
+  text-align: center;
+}
+
+@media (max-width:992px) {
+  .shirt{
+    width: 950px;
+    height: 950px;
+  }
+  .logo{
+    width: 450px;
+
+  }
+  .display-web{
+    display: none
+  }
+  .display-mobile{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 99999999999999999999999999
+  }
+  .display-mobile h2{
+    font-size: 90px;
+    color: black
+  }
+  .right{
+    width: 0;
+  }
+  .botoncolor{
+    font-size: 44px;
+    padding: 14px
+  }
+  .fp-controlArrow.fp-next {
+    right: 20px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #ffffff;
+    top: 560px;
+}
+.fp-controlArrow.fp-prev {
+    left: 233px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #ffffff transparent #212529;
+    top: 560px;
+}
+.h1, h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 30px
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li {
+    text-align: left;
+    font-size: 8px;
+    text-align: left;
+}
+}
